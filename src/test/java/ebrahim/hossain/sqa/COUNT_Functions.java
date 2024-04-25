@@ -16,7 +16,7 @@ public class COUNT_Functions {
 		String password = "root";
 
 		// SQL query with COUNT() function
-		String selectSql = "SELECT COUNT(*) AS total_students FROM student";
+		String selectSql = "SELECT COUNT(id) AS total_students FROM student";
 
 		try (Connection conn = DriverManager.getConnection(url, userName, password);
 				Statement stmt = conn.createStatement();
