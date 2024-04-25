@@ -7,26 +7,27 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import org.testng.annotations.Test;
 
-public class MIN_Functions {
+public class AVG_Function {
 
 	@Test
-	public void max() {
+	public void avg() {
 		String url = "jdbc:mysql://localhost:3306/test";
 		String userName = "root";
 		String password = "root";
 
-		// SQL query with MAX() function
-		String selectSql = "SELECT MAX(age) AS max_age FROM student";
+		// SQL query with AVG() function
+		String selectSql = "SELECT AVG(gpa) AS avg_gpa FROM student";
 
 		try (Connection conn = DriverManager.getConnection(url, userName, password);
 				Statement stmt = conn.createStatement();
 				ResultSet rs = stmt.executeQuery(selectSql)) {
 
-			System.out.println("Maximum Age of Students:");
+			// Print the average age of students
+			System.out.println("Average GPA of Students:");
 			System.out.println("-------------------------");
 			if (rs.next()) {
-				int maxAge = rs.getInt("max_age");
-				System.out.println("Maximum Age: " + maxAge);
+				double avg_gpa = rs.getDouble("avg_gpa");
+				System.out.println("Average GPA: " + avg_gpa);
 			}
 
 		} catch (SQLException e) {

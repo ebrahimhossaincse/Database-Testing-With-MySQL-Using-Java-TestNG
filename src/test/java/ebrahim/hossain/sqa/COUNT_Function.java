@@ -7,27 +7,27 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import org.testng.annotations.Test;
 
-public class AVG_Functions {
+public class COUNT_Function {
 
 	@Test
-	public void avg() {
+	public void count() {
 		String url = "jdbc:mysql://localhost:3306/test";
 		String userName = "root";
 		String password = "root";
 
-		// SQL query with AVG() function
-		String selectSql = "SELECT AVG(gpa) AS avg_gpa FROM student";
+		// SQL query with COUNT() function
+		String selectSql = "SELECT COUNT(id) AS total_students FROM student";
 
 		try (Connection conn = DriverManager.getConnection(url, userName, password);
 				Statement stmt = conn.createStatement();
 				ResultSet rs = stmt.executeQuery(selectSql)) {
 
-			// Print the average age of students
-			System.out.println("Average GPA of Students:");
+			// Print the total number of students
+			System.out.println("Total Number of Students:");
 			System.out.println("-------------------------");
 			if (rs.next()) {
-				double avg_gpa = rs.getDouble("avg_gpa");
-				System.out.println("Average GPA: " + avg_gpa);
+				int totalStudents = rs.getInt("total_students");
+				System.out.println("Total Students: " + totalStudents);
 			}
 
 		} catch (SQLException e) {
