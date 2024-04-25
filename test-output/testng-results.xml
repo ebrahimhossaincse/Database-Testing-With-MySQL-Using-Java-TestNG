@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-25T04:08:12 EDT" name="Default suite" finished-at="2024-04-25T04:08:12 EDT" duration-ms="358">
+  <suite started-at="2024-04-25T04:27:11 EDT" name="Default suite" finished-at="2024-04-25T04:27:11 EDT" duration-ms="375">
     <groups>
     </groups>
-    <test started-at="2024-04-25T04:08:12 EDT" name="Default test" finished-at="2024-04-25T04:08:12 EDT" duration-ms="358">
-      <class name="ebrahim.hossain.sqa.NOTOperator">
-        <test-method signature="notOperator()[pri:0, instance:ebrahim.hossain.sqa.NOTOperator@58d75e99]" started-at="2024-04-25T04:08:12 EDT" name="notOperator" finished-at="2024-04-25T04:08:12 EDT" duration-ms="331" status="PASS">
+    <test started-at="2024-04-25T04:27:11 EDT" name="Default test" finished-at="2024-04-25T04:27:11 EDT" duration-ms="375">
+      <class name="ebrahim.hossain.sqa.ORDERBY">
+        <test-method signature="orderBy()[pri:0, instance:ebrahim.hossain.sqa.ORDERBY@58d75e99]" started-at="2024-04-25T04:27:11 EDT" name="orderBy" finished-at="2024-04-25T04:27:11 EDT" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- notOperator -->
-      </class> <!-- ebrahim.hossain.sqa.NOTOperator -->
+        </test-method> <!-- orderBy -->
+      </class> <!-- ebrahim.hossain.sqa.ORDERBY -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
