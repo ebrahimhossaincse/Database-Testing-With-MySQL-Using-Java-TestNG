@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import org.testng.annotations.Test;
 
-public class NOTOperator {
+public class NOT_Operator {
 
 	@Test
 	public void notOperator() {

@@ -7,10 +7,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import org.testng.annotations.Test;
 
-public class OROperator {
+public class AND_Operator {
 
 	@Test
-	public void orOperator() {
+	public void andOperator() {
 		String url = "jdbc:mysql://localhost:3306/test";
 		String userName = "root";
 		String password = "root";
@@ -19,7 +19,7 @@ public class OROperator {
 		String departmentCondition = "department = 'Computer Science'";
 		double gpaCondition = 3.5;
 
-		String selectSql = "SELECT * FROM student WHERE " + departmentCondition + " OR gpa > " + gpaCondition;
+		String selectSql = "SELECT * FROM student WHERE " + departmentCondition + " AND gpa > " + gpaCondition;
 
 		try (Connection conn = DriverManager.getConnection(url, userName, password);
 				Statement stmt = conn.createStatement();
