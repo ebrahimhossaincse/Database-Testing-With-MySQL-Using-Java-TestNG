@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ebrahim.hossain.sqa.WhereClause">
+      <class name="ebrahim.hossain.sqa.ANDOperator">
         <methods>
-          <include name="whereCondition"/>
+          <include name="andOperator"/>
         </methods>
-      </class> <!-- ebrahim.hossain.sqa.WhereClause -->
+      </class> <!-- ebrahim.hossain.sqa.ANDOperator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
