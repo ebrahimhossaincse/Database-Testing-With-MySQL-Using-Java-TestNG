@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-27T21:11:17 EDT" name="Default suite" finished-at="2024-04-27T21:11:18 EDT" duration-ms="774">
+  <suite started-at="2024-04-27T22:06:42 EDT" name="Default suite" finished-at="2024-04-27T22:06:42 EDT" duration-ms="826">
     <groups>
     </groups>
-    <test started-at="2024-04-27T21:11:17 EDT" name="Default test" finished-at="2024-04-27T21:11:18 EDT" duration-ms="774">
-      <class name="ebrahim.hossain.sqa.StudentCourseTable">
-        <test-method signature="studentCourse()[pri:0, instance:ebrahim.hossain.sqa.StudentCourseTable@58d75e99]" started-at="2024-04-27T21:11:17 EDT" name="studentCourse" finished-at="2024-04-27T21:11:18 EDT" duration-ms="708" status="PASS">
+    <test started-at="2024-04-27T22:06:42 EDT" name="Default test" finished-at="2024-04-27T22:06:42 EDT" duration-ms="826">
+      <class name="ebrahim.hossain.sqa.MAX_Function">
+        <test-method signature="min()[pri:0, instance:ebrahim.hossain.sqa.MAX_Function@58d75e99]" started-at="2024-04-27T22:06:42 EDT" name="min" finished-at="2024-04-27T22:06:42 EDT" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- studentCourse -->
-      </class> <!-- ebrahim.hossain.sqa.StudentCourseTable -->
+        </test-method> <!-- min -->
+      </class> <!-- ebrahim.hossain.sqa.MAX_Function -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
