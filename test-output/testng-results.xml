@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T20:45:13 EDT" name="Default suite" finished-at="2024-05-01T20:45:14 EDT" duration-ms="332">
+  <suite started-at="2024-05-01T20:46:52 EDT" name="Default suite" finished-at="2024-05-01T20:46:52 EDT" duration-ms="352">
     <groups>
     </groups>
-    <test started-at="2024-05-01T20:45:13 EDT" name="Default test" finished-at="2024-05-01T20:45:14 EDT" duration-ms="332">
-      <class name="ebrahim.hossain.sqa.LIKE_Operator">
-        <test-method signature="likeExample1()[pri:0, instance:ebrahim.hossain.sqa.LIKE_Operator@74751b3]" started-at="2024-05-01T20:45:13 EDT" name="likeExample1" finished-at="2024-05-01T20:45:14 EDT" duration-ms="302" status="PASS">
+    <test started-at="2024-05-01T20:46:52 EDT" name="Default test" finished-at="2024-05-01T20:46:52 EDT" duration-ms="352">
+      <class name="ebrahim.hossain.sqa.LIMIT">
+        <test-method signature="limit()[pri:0, instance:ebrahim.hossain.sqa.LIMIT@58d75e99]" started-at="2024-05-01T20:46:52 EDT" name="limit" finished-at="2024-05-01T20:46:52 EDT" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- likeExample1 -->
-      </class> <!-- ebrahim.hossain.sqa.LIKE_Operator -->
+        </test-method> <!-- limit -->
+      </class> <!-- ebrahim.hossain.sqa.LIMIT -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
