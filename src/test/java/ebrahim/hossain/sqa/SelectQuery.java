@@ -26,7 +26,7 @@ public class SelectQuery {
 	            while (rs.next()) {
 	                System.out.println("Student Information:");
 	                System.out.println("--------------------------------------------");
-	                System.out.println("ID: " + rs.getInt("id"));
+	                System.out.println("ID: " + rs.getInt("student_id"));
 	                System.out.println("First Name: " + rs.getString("first_name"));
 	                System.out.println("Last Name: " + rs.getString("last_name"));
 	                System.out.println("Age: " + rs.getInt("age"));
