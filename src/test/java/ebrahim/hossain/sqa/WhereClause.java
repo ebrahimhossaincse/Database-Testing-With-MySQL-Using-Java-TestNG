@@ -33,7 +33,7 @@ public class WhereClause {
 
 			while (rs.next()) {
 				System.out.printf("%-4s %-10s %-10s %-4s %-6s %-40s %-20s %-10s %-10s %-30s %-15s %-15s %-30s %-30s %-30s %-4.2f %-16s %-30s %-100s\n",
-						rs.getInt("id"), rs.getString("first_name"), rs.getString("last_name"), rs.getInt("age"),
+						rs.getInt("student_id"), rs.getString("first_name"), rs.getString("last_name"), rs.getInt("age"),
 						rs.getString("gender"), rs.getString("address"), rs.getString("city"), rs.getString("state"),
 						rs.getString("country"), rs.getString("email"), rs.getString("phone_number"),
 						rs.getString("enrollment_date"), rs.getString("graduation_date"), rs.getString("department"),
