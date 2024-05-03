@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-02T23:57:17 EDT" name="Default suite" finished-at="2024-05-02T23:57:18 EDT" duration-ms="808">
+  <suite started-at="2024-05-02T23:57:31 EDT" name="Default suite" finished-at="2024-05-02T23:57:32 EDT" duration-ms="730">
     <groups>
     </groups>
-    <test started-at="2024-05-02T23:57:17 EDT" name="Default test" finished-at="2024-05-02T23:57:18 EDT" duration-ms="808">
-      <class name="ebrahim.hossain.sqa.SUM_Function">
-        <test-method signature="sum()[pri:0, instance:ebrahim.hossain.sqa.SUM_Function@2c35e847]" started-at="2024-05-02T23:57:17 EDT" name="sum" finished-at="2024-05-02T23:57:18 EDT" duration-ms="734" status="PASS">
+    <test started-at="2024-05-02T23:57:31 EDT" name="Default test" finished-at="2024-05-02T23:57:32 EDT" duration-ms="730">
+      <class name="ebrahim.hossain.sqa.UpdateQuery">
+        <test-method signature="update()[pri:0, instance:ebrahim.hossain.sqa.UpdateQuery@2c35e847]" started-at="2024-05-02T23:57:31 EDT" name="update" finished-at="2024-05-02T23:57:32 EDT" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sum -->
-      </class> <!-- ebrahim.hossain.sqa.SUM_Function -->
+        </test-method> <!-- update -->
+      </class> <!-- ebrahim.hossain.sqa.UpdateQuery -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
