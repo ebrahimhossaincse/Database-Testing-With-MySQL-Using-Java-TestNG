@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-03T22:19:08 EDT" name="Default suite" finished-at="2024-05-03T22:19:08 EDT" duration-ms="409">
+  <suite started-at="2024-05-03T22:19:51 EDT" name="Default suite" finished-at="2024-05-03T22:19:52 EDT" duration-ms="356">
     <groups>
     </groups>
-    <test started-at="2024-05-03T22:19:08 EDT" name="Default test" finished-at="2024-05-03T22:19:08 EDT" duration-ms="409">
-      <class name="ebrahim.hossain.sqa.Aliases">
-        <test-method signature="aliasExample()[pri:0, instance:ebrahim.hossain.sqa.Aliases@2c35e847]" started-at="2024-05-03T22:19:08 EDT" name="aliasExample" finished-at="2024-05-03T22:19:08 EDT" duration-ms="380" status="PASS">
+    <test started-at="2024-05-03T22:19:51 EDT" name="Default test" finished-at="2024-05-03T22:19:52 EDT" duration-ms="356">
+      <class name="ebrahim.hossain.sqa.AND_Operator">
+        <test-method signature="andOperator()[pri:0, instance:ebrahim.hossain.sqa.AND_Operator@2c35e847]" started-at="2024-05-03T22:19:51 EDT" name="andOperator" finished-at="2024-05-03T22:19:52 EDT" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aliasExample -->
-      </class> <!-- ebrahim.hossain.sqa.Aliases -->
+        </test-method> <!-- andOperator -->
+      </class> <!-- ebrahim.hossain.sqa.AND_Operator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
